@@ -47,3 +47,19 @@ header {
     color: #8baff1;
     cursor: pointer;
 }
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Shantell Sans', cursive;
+  font-family: 'Waterfall', cursive;
+  font-size: 170px;
+  font-weight: lighter;
+  line-height: 2;
+  color: rgb(232, 108, 108);
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 50px;
+  color: #92A8D1;
+}
