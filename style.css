@@ -49,17 +49,75 @@ header {
 }
 
 h1 {
-  margin: 50px auto 0 auto;
-  font-family: 'Shantell Sans', cursive;
-  font-family: 'Waterfall', cursive;
-  font-size: 170px;
-  font-weight: lighter;
-  line-height: 2;
-  color: rgb(232, 108, 108);
+    margin: 50px auto 0 auto;
+    font-family: 'Shantell Sans', cursive;
+    font-family: 'Waterfall', cursive;
+    font-size: 170px;
+    font-weight: lighter;
+    line-height: 2;
+    color: rgb(232, 108, 108);
 }
 
 h2 {
-  font-family: "Montserrat", sans-serif;
-  font-size: 50px;
-  color: #92A8D1;
+    font-family: "Montserrat", sans-serif;
+    font-size: 50px;
+    color: #92A8D1;
+}
+
+.tagline {
+    font-family: 'Inconsolata', monospace;
+    font-size: 2.5rem;
+    font-weight: normal;
+    color: rgb(255, 255, 255);
+    margin: 0;
+}
+
+p {
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    color: gray;
+}
+
+hr {
+    margin-left: auto;
+    margin-right: auto;
+    border-style: none;
+    border-top-style: dotted;
+    height: 0;
+    width: 5%;
+    border-width: 7px;
+    border-color: #928b86;
+}
+
+.hero-section {
+    width: 100%;
+    margin-top: 100px;
+    background: linear-gradient(135deg, #F7CAC9, #92A8D1);
+    position: relative;
+    padding-top: 100px;
+    border-top-left-radius: 1000px;
+    border-bottom-right-radius: 1000px;
+    padding-bottom: 150px;
+}
+
+.hero-content {
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+#profile {
+    margin: 100px auto 100px auto;
+}
+
+.profile-pic {
+    width: 30%;
+    margin-bottom: 5%;
+}
+
+.about-me {
+    text-align: justify;
+    padding: 0 20%;
+    line-height: 1.5;
+    font-size: 20px;
+    color: gray;
 }
