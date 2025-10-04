@@ -55,7 +55,7 @@ h1 {
     font-size: 170px;
     font-weight: lighter;
     line-height: 2;
-    color: rgb(232, 108, 108);
+    color: rgb(255, 255, 255);
 }
 
 h2 {
@@ -120,4 +120,20 @@ hr {
     line-height: 1.5;
     font-size: 20px;
     color: gray;
+}
+
+#top-cloud {
+  position: absolute;
+  top: 50px;
+  right: 300px;
+}
+
+.bottom-cloud {
+  position: relative;
+  right: 400px;
+  top: 25px;
+}
+
+.bottom-cloud-div {
+  height: 100px;
 }
