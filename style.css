@@ -48,9 +48,8 @@ header {
     cursor: pointer;
 }
 
-h1 {
+.hero-title {
     margin: 50px auto 0 auto;
-    font-family: 'Shantell Sans', cursive;
     font-family: 'Waterfall', cursive;
     font-size: 170px;
     font-weight: lighter;
@@ -123,17 +122,17 @@ hr {
 }
 
 #top-cloud {
-  position: absolute;
-  top: 50px;
-  right: 300px;
+    position: absolute;
+    top: 50px;
+    right: 300px;
 }
 
 .bottom-cloud {
-  position: relative;
-  right: 400px;
-  top: 25px;
+    position: relative;
+    right: 400px;
+    top: 25px;
 }
 
 .bottom-cloud-div {
-  height: 100px;
+    height: 100px;
 }
