@@ -136,3 +136,28 @@ hr {
 .bottom-cloud-div {
     height: 100px;
 }
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.skill-item {
+    display: flex;
+    justify-content: center;
+}
+
+.skill-row {
+    margin: 60px auto;
+    width: 70%;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.skill-image {
+    margin-bottom: 20px;
+}
