@@ -161,3 +161,11 @@ hr {
 .skill-image {
     margin-bottom: 20px;
 }
+
+#skills {
+    margin: 100px auto 100px auto;
+}
+
+.section {
+    padding: 80px 0;
+}
