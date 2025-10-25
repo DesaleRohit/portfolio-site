@@ -41,7 +41,7 @@ gsap.utils.toArray('.section').forEach(section => {
             trigger: section,
             start: 'top 80%',
             end: 'bottom 20%',
-            toggleActions: 'play none none reverse'
+            toggleActions: 'play reverse play reverse',
         },
         y: 50,
         opacity: 0,
@@ -54,12 +54,13 @@ gsap.from('.skill-item', {
     scrollTrigger: {
         trigger: '#skills',
         start: 'top 70%',
+        toggleActions: 'play reverse play reverse',
     },
     y: 50,
     opacity: 0,
-    stagger: 0.1,
-    duration: 0.8,
-    ease: 'back.out(1.7)'
+    stagger: 0.2,
+    duration: 1,
+    ease: 'power2.out'
 });
 
 // Project cards animation
@@ -67,6 +68,7 @@ gsap.from('.project-item', {
     scrollTrigger: {
         trigger: '#projects',
         start: 'top 70%',
+        toggleActions: 'play reverse play reverse',
     },
     y: 50,
     opacity: 0,
