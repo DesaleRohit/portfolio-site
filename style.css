@@ -16,29 +16,61 @@ header {
     left: 0;
     right: 0;
     z-index: 1000;
-    background: #fff;
-    padding: 1rem 3% 0rem 3%;
-    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    height: 80px;
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(10px);
+    padding: 1rem 5%;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s ease;
 }
 
 .nav-container {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
-    padding: 10px 0;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .nav-link {
-    color: #6985b9;
+    color: #475569;
     text-decoration: none;
     font-size: 18px;
-    font-weight: bolder;
-    margin: 10px 20px;
-    transition: color 0.3s ease;
+    font-weight: 600;
+    margin: 0 18px;
+    padding: 8px 4px;
+    position: relative;
+    transition: all 0.3s ease;
+    letter-spacing: 0.5px;
+}
+
+.nav-link::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: linear-gradient(90deg, #8b5cf6, #3b82f6);
+    transition: width 0.3s ease;
+    border-radius: 2px;
 }
 
 .nav-link:hover {
-    color: #8baff1;
+    color: #1e293b;
+}
+
+.nav-link:hover::after {
+    width: 100%;
+}
+
+/* Active link indicator */
+.nav-link.active {
+    color: #0062ff;
+}
+
+.nav-link.active::after {
+    width: 100%;
 }
 
 .hero-section {
